@@ -1,0 +1,141 @@
+h1 {
+    color: rgb(33, 11, 33);
+    font-size: 36px;
+}
+
+h2 {
+    /* color: purple; */
+}
+
+h3 {
+    /* color: red; */
+}
+
+h4 {
+    /* color: green; */
+}
+
+.div-table {
+    display: row;
+    width: 60%;
+    padding: 5px;
+    margin-left: 20%;
+    background-color: yellow;
+}
+
+html {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+* {
+    font-size: 18px;
+    color: black;
+}
+
+.line-input {
+    margin: 0px;
+    padding: 5px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 10px;
+    text-align-last: center;
+    -webkit-box-shadow: inset 0px 0px 63px 1px rgba(255, 255, 255, 0.71);
+    -moz-box-shadow: inset 0px 0px 63px 1px rgba(255, 255, 255, 0.71);
+    box-shadow: inset 0px 0px 63px 1px rgba(255, 255, 255, 0.71);
+}
+
+.btn {
+    color: white;
+    padding: .75rem 2.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-masterful {
+    background-color: #00b7ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-masterful .icon {
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+.btn-masterful .btn-txt {
+    padding-left: .5rem;
+}
+
+.btn-masterful:hover {
+    background-color: #018dc5;
+}
+
+.btn-masterful:hover .icon {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+.attribute {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+input {
+    border: 0px;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+input:focus {
+    border: 0px;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+/* TABELA */
+
+.results-table {
+    width: 60%;
+    margin-left: 20%;
+    max-height: 50px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #83c2f5e2;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f9f9f95d;
+}
+
+.results-table tr:hover {
+    background-color: #dddddd73;
+}
