@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lattes-ranking/static/css/main.b38fbd2a.css",
-    "main.js": "/lattes-ranking/static/js/main.f4d9ed02.js",
+    "main.js": "/lattes-ranking/static/js/main.bf7947a3.js",
     "index.html": "/lattes-ranking/index.html",
     "main.b38fbd2a.css.map": "/lattes-ranking/static/css/main.b38fbd2a.css.map",
-    "main.f4d9ed02.js.map": "/lattes-ranking/static/js/main.f4d9ed02.js.map"
+    "main.bf7947a3.js.map": "/lattes-ranking/static/js/main.bf7947a3.js.map"
   },
   "entrypoints": [
     "static/css/main.b38fbd2a.css",
-    "static/js/main.f4d9ed02.js"
+    "static/js/main.bf7947a3.js"
   ]
 }
