@@ -61,7 +61,7 @@ const XMLProcessor = () => {
                 const ano = artigos[i]
                     .getElementsByTagName("DADOS-BASICOS-DO-ARTIGO")[0]
                     .getAttribute("ANO-DO-ARTIGO");
-                if (ano && parseInt(ano) === anoAtual) {
+                if (ano && parseInt(ano) >= (anoAtual - 5)) {
                     contadorArtigos += 1;
                 }
             }
@@ -79,7 +79,7 @@ const XMLProcessor = () => {
                     const ano = orientacoes[i]
                         .getElementsByTagName(`DADOS-BASICOS-DA-${tipo}`)[0]
                         .getAttribute("ANO");
-                    if (ano && parseInt(ano) === anoAtual) {
+                    if (ano && parseInt(ano) >= (anoAtual - 5)) {
                         contadorOrientacoes += 1;
                     }
                 }
@@ -156,8 +156,8 @@ const XMLProcessor = () => {
                             <tr>
                                 <th>Arquivo</th>
                                 <th>Nome</th>
-                                <th>Artigos ({anoAtual})</th>
-                                <th>Orientações ({anoAtual})</th>
+                                <th>Artigos ({anoAtual - 5} - {anoAtual})</th>
+                                <th>Orientações ({anoAtual - 5} - {anoAtual})</th>
                             </tr>
                         </thead>
                         <tbody>
