@@ -120,7 +120,7 @@ const XMLProcessor = () => {
 
     return (
         <div className="bg">
-            <h1>LATTES Ranking</h1>
+            <h1>Rank Lattes</h1>
             <div className="line-input">
                 <label className="text" htmlFor="anoInput">Insira o ano:</label>
                 <input
